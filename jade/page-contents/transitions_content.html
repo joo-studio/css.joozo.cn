@@ -1,0 +1,56 @@
+<div class="ct-container">
+    <div class="ct-row">
+        <div class="ct-md-9 ct-lg-10">
+            <div id="staggered" class="section scrollspy">
+                <p class="caption">We've made some custom animation functions that will transition your content. It's recommended to use this with our <a href="/scrollfire.html">ScrollFire Plugin</a> to make your content transition in as you scroll.</p>
+                <h4>showStaggeredList</h4>
+                <p>Use this to create a staggered reveal effect for any <code class="language-markup">UL</code> Tag with list items. Just make sure the list items in the <code class="language-markup">UL</code> are <code class="language-css">opacity: 0; to ensure the animation works correctly.</code></p>
+                <a href="#!" class="btn" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me</a>
+                <pre><code class="language-markup">
+  &lt;a href="#!" class="btn" onclick="Materialize.showStaggeredList('#staggered-test')">Click Me&lt;/a>
+        </code></pre>
+                <ul id="staggered-test">
+                    <li>
+                        <h4><a href="#">List Item</a></h4>
+                        <p>This is a description</p>
+                    </li>
+                    <li>
+                        <h4><a href="#">List Item</a></h4>
+                        <p>This is a description</p>
+                    </li>
+                    <li>
+                        <h4><a href="#">List Item</a></h4>
+                        <p>This is a description</p>
+                    </li>
+                    <li>
+                        <h4><a href="#">List Item</a></h4>
+                        <p>This is a description</p>
+                    </li>
+                    <li>
+                        <h4><a href="#">List Item</a></h4>
+                        <p>This is a description</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="fadeImage" class="section scrollspy">
+                <h4>fadeInImage</h4>
+                <p>Use this to fade in images. It also animates grayscale and brightness to give it a unique effect.</p>
+                <a href="#!" class="btn" onclick="Materialize.fadeInImage('#image-test')">Click Me</a>
+                <pre><code class="language-markup">
+  &lt;a href="#!" class="btn" onclick="Materialize.fadeInImage('#image-test')">Click Me&lt;/a>
+        </code></pre>
+                <img id="image-test" class="responsive-img" src="https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?dpr=1.25&fit=crop&fm=jpg&h=700&q=75&w=1050">
+            </div>
+        </div>
+       <div class="ct-hide-sm-down ct-md-3 ct-lg-2">
+            <div class="toc-wrapper">
+                <div style="height: 1px;">
+                    <ul class="section table-of-contents">
+                        <li><a href="#staggered">showStaggeredList</a></li>
+                        <li><a href="#fadeImage">Materialize.fadeInImage</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,352 @@
+<div class="ct-container">
+    <div class="ct-row">
+        <div class="ct-md-9 ct-lg-10">
+            <div id="input" class="ct-section scrollspy">
+                <p class="caption">
+                    Forms are the standard way to receive user inputted data. The transitions and smoothness of these elements are very important because of the inherent user interaction associated with forms.
+                </p>
+                <h2 class="header">Input fields</h2>
+                <br>
+                <h4>Basic Form Style</h4>
+                <div class="ct-row ct-form">
+                    <form method="post" action="#">
+                        <div class="ct-row">
+                            <div class="ct-md-6 ct-mb">
+                                <label for="demo-name">Name</label>
+                                <input type="text" class="__form-control" name="demo-name" id="demo-name" value="" />
+                            </div>
+                            <div class="ct-md-6 ct-mb">
+                                <label for="demo-email">Email</label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                            </div>
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-category">Category</label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-low2" name="demo-priority2" checked>
+                                <label for="demo-priority-low2">Low Priority</label>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-normal2" name="demo-priority2">
+                                <label for="demo-priority-normal2">Normal Priority</label>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-high2" name="demo-priority2">
+                                <label for="demo-priority-high2">High Priority</label>
+                            </div>
+                            <div class="ct-md-6">
+                                <input type="checkbox" id="demo-copy2" name="demo-copy2">
+                                <label for="demo-copy2">Email me a copy</label>
+                            </div>
+                            <div class="ct-md-6">
+                                <input type="checkbox" id="demo-human2" name="demo-human" checked>
+                                <label for="demo-human2">Not a robot</label>
+                            </div>
+                            <div class="ct-md-12">
+                                <label for="demo-message2">Message</label>
+                                <textarea name="demo-message" class="__form-control --textarea" id="demo-message2" rows="6"></textarea>
+                            </div>
+                            <div class="ct-md-12 ct-mt">
+                                <input type="submit" value="Send Message" class="ct-btn --large --blue --no-shadow" />
+                                <input type="reset" value="Reset" class="ct-btn --large --red ct-color-white --no-shadow" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <pre><code class="language-markup">
+  &lt;div class="ct-form">
+    &lt;form method="post" action="#">
+        &lt;div class="ct-row">
+            &lt;div class="ct-md-6 ct-mb">
+                &lt;label for="demo-name">Name&lt;/label>
+                &lt;input type="text" class="__form-control" name="demo-name" id="demo-name" value="" />
+            &lt;/div>
+            &lt;div class="ct-md-6 ct-mb">
+                &lt;label for="demo-email">Email&lt;/label>
+                &lt;input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+            &lt;/div>
+            &lt;div class="ct-md-12 ct-mb">
+                &lt;label for="demo-category">Category&lt;/label>
+                &lt;div class="__select-wrapper">
+                    &lt;select name="demo-category" class="__form-control" id="demo-category">
+                        &lt;option value="">-&lt;/option>
+                        &lt;option value="1">Manufacturing&lt;/option>
+                        &lt;option value="1">Shipping&lt;/option>
+                        &lt;option value="1">Administration&lt;/option>
+                        &lt;option value="1">Human Resources&lt;/option>
+                    &lt;/select>
+                &lt;/div>
+            &lt;/div>
+            &lt;div class="ct-md-4">
+                &lt;input type="radio" id="demo-priority-low2" name="demo-priority2" checked>
+                &lt;label for="demo-priority-low2">Low Priority&lt;/label>
+            &lt;/div>
+            &lt;div class="ct-md-4">
+                &lt;input type="radio" id="demo-priority-normal2" name="demo-priority2">
+                &lt;label for="demo-priority-normal2">Normal Priority&lt;/label>
+            &lt;/div>
+            &lt;div class="ct-md-4">
+                &lt;input type="radio" id="demo-priority-high2" name="demo-priority2">
+                &lt;label for="demo-priority-high2">High Priority&lt;/label>
+            &lt;/div>
+            &lt;div class="ct-md-6">
+                &lt;input type="checkbox" id="demo-copy2" name="demo-copy2">
+                &lt;label for="demo-copy2">Email me a copy&lt;/label>
+            &lt;/div>
+            &lt;div class="ct-md-6">
+                &lt;input type="checkbox" id="demo-human2" name="demo-human" checked>
+                &lt;label for="demo-human2">Not a robot&lt;/label>
+            &lt;/div>
+            &lt;div class="ct-md-12">
+                &lt;label for="demo-message2">Message&lt;/label>
+                &lt;textarea name="demo-message" class="__form-control --textarea" id="demo-message2" rows="6">&lt;/textarea>
+            &lt;/div>
+            &lt;div class="ct-md-12 ct-mt">
+                &lt;input type="submit" value="Send Message" class="ct-btn --large --blue --no-shadow" />
+                &lt;input type="reset" value="Reset" class="ct-btn --large --red ct-color-white --no-shadow" />
+            &lt;/div>
+        &lt;/div>
+    &lt;/form>
+  &lt;/div>
+        </code></pre>
+                <br>
+                <h4>Basic Form Style</h4>
+                <div class="ct-row ct-form --small">
+                    <form method="post" action="#">
+                        <div class="ct-row">
+                            <div class="ct-md-6 ct-mb">
+                                <label for="demo-name">Name</label>
+                                <input type="text" class="__form-control" name="demo-name" id="demo-name" value="" />
+                            </div>
+                            <div class="ct-md-6 ct-mb">
+                                <label for="demo-email">Email</label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                            </div>
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-category">Category</label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-low23" name="demo-priority23" checked>
+                                <label for="demo-priority-low23">Low Priority</label>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-normal23" name="demo-priority23">
+                                <label for="demo-priority-normal23">Normal Priority</label>
+                            </div>
+                            <div class="ct-md-4">
+                                <input type="radio" id="demo-priority-high23" name="demo-priority23">
+                                <label for="demo-priority-high2">High Priority</label>
+                            </div>
+                            <div class="ct-md-6">
+                                <input type="checkbox" id="demo-copy23" name="demo-copy23">
+                                <label for="demo-copy23">Email me a copy</label>
+                            </div>
+                            <div class="ct-md-6">
+                                <input type="checkbox" id="demo-human23" name="demo-human23" checked>
+                                <label for="demo-human23">Not a robot</label>
+                            </div>
+                            <div class="ct-md-12">
+                                <label for="demo-message23">Message</label>
+                                <textarea name="demo-message" class="__form-control --textarea" id="demo-message23" rows="6"></textarea>
+                            </div>
+                            <div class="ct-md-12 ct-mt">
+                                <input type="submit" value="Send Message" class="ct-btn --large --blue --no-shadow" />
+                                <input type="reset" value="Reset" class="ct-btn --large --red ct-color-white --no-shadow" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <pre><code class="language-markup">
+  &lt;div class="ct-form --small">
+            ....
+  &lt;/div>
+        </code></pre>
+                <h4>Inline Form</h4>
+                <section class="ct-form --inline --blue">
+                    <form method="post" action="#">
+                        <div class="ct-row">
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-name">Name: </label>
+                                <input type="text" class="__form-control" name="demo-name" id="demo-name" value="" />
+                                <label for="demo-email">Email: </label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                                <label for="demo-category">Category: </label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                                <div class="ct-mt-lg">
+                                    <input type="checkbox" id="demo-copy3" name="demo-copy3">
+                                    <label for="demo-copy3">Email me a copy</label>
+                                    <input type="radio" id="demo-priority-low3" name="demo-priority" checked>
+                                    <label for="demo-priority-low3">Low Priority</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <pre><code class="language-markup">
+  &lt;section class="ct-form --inline --blue">
+      &lt;form method="post" action="#">
+          &lt;div class="ct-row">
+              &lt;div class="ct-md-12 ct-mb">
+                  &lt;label for="demo-name">Name: &lt;/label>
+                  &lt;input type="text" class="__form-control" name="demo-name" id="demo-name" value="" />
+                  &lt;label for="demo-email">Email: &lt;/label>
+                  &lt;input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                  &lt;label for="demo-category">Category: &lt;/label>
+                  &lt;div class="__select-wrapper">
+                      &lt;select name="demo-category" class="__form-control" id="demo-category">
+                          &lt;option value="">-&lt;/option>
+                          &lt;option value="1">Manufacturing&lt;/option>
+                          &lt;option value="1">Shipping&lt;/option>
+                          &lt;option value="1">Administration&lt;/option>
+                          &lt;option value="1">Human Resources&lt;/option>
+                      &lt;/select>
+                  &lt;/div>
+                  &lt;div class="ct-mt-lg">
+                      &lt;input type="checkbox" id="demo-copy3" name="demo-copy3">
+                      &lt;label for="demo-copy3">Email me a copy&lt;/label>
+                      &lt;input type="radio" id="demo-priority-low3" name="demo-priority" checked>
+                      &lt;label for="demo-priority-low3">Low Priority&lt;/label>
+                  &lt;/div>
+              &lt;/div>
+          &lt;/div>
+      &lt;/form>
+  &lt;/section>
+        </code></pre>
+                <br>
+                <br>
+                <br>
+                <h4>Changing colors</h4>
+                <br>
+                <section class="ct-form --inline">
+                    <form method="post" action="#" class="ct-ma-0">
+                        <div class="ct-row">
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-name">Name: </label>
+                                <input type="text" class="__form-control active" name="demo-name" id="demo-name" value="" />
+                                <label for="demo-email">Email: </label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                                <label for="demo-category">Category: </label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <section class="ct-form --inline --blue">
+                    <form method="post" action="#" class="ct-ma-0">
+                        <div class="ct-row">
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-name">Name: </label>
+                                <input type="text" class="__form-control active" name="demo-name" id="demo-name" value="" />
+                                <label for="demo-email">Email: </label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                                <label for="demo-category">Category: </label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <section class="ct-form --inline --green">
+                    <form method="post" action="#" class="ct-ma-0">
+                        <div class="ct-row">
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-name">Name: </label>
+                                <input type="text" class="__form-control active" name="demo-name" id="demo-name" value="" />
+                                <label for="demo-email">Email: </label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                                <label for="demo-category">Category: </label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <section class="ct-form --inline --red">
+                    <form method="post" action="#" class="ct-ma-0">
+                        <div class="ct-row">
+                            <div class="ct-md-12 ct-mb">
+                                <label for="demo-name">Name: </label>
+                                <input type="text" class="__form-control active" name="demo-name" id="demo-name" value="" />
+                                <label for="demo-email">Email: </label>
+                                <input type="email" class="__form-control" name="demo-email" id="demo-email" value="" />
+                                <label for="demo-category">Category: </label>
+                                <div class="__select-wrapper">
+                                    <select name="demo-category" class="__form-control" id="demo-category">
+                                        <option value="">-</option>
+                                        <option value="1">Manufacturing</option>
+                                        <option value="1">Shipping</option>
+                                        <option value="1">Administration</option>
+                                        <option value="1">Human Resources</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <pre><code class="language-markup">
+  &lt;section class="ct-form --inline">...&lt;/section>
+  &lt;section class="ct-form --inline --green">...&lt;/section>
+  &lt;section class="ct-form --inline --red">...&lt;/section>
+  &lt;section class="ct-form --inline --blue">...&lt;/section>
+        </code></pre>
+            </div>
+        </div>
+        <div class="ct-hide-sm-down ct-md-3 ct-lg-2">
+            <div class="toc-wrapper">
+                <div style="height: 1px;">
+                    <ul class="ct-section table-of-contents">
+                        <li><a href="#input">Input Fields</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

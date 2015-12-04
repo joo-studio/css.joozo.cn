@@ -1,0 +1,99 @@
+header
+  if no_nav == false
+    nav.top-nav
+      .ct-container
+        .nav-wrapper
+          a.page-title #{page}
+  .ct-container
+    a.button-collapse.top-nav.octicon.octicon-three-bars(href='#', data-activates='nav-mobile', class=(no_nav == false ? "ct-hide-lg-down" : "" + "ct-hide-lg-down"))
+  ul#nav-mobile.side-nav.fixed
+    li(class="logo")
+      a#logo-container.brand-logo(href='./index.html')
+        img(src='css/logo.png', alt='logo', class='ct-responsive')
+    //- li.bold(class=(page == "About" ? "active" : ""))
+    //-   a.waves-effect(href='about.html') About
+    li.bold(class=(page == "Getting Started" ? "active" : ""))
+      a.waves-effect(href='getting-started.html') Getting Started
+
+    li.ct-px-0
+      ul.collapsible.collapsible-accordion
+        li.bold
+          a.collapsible-header(class=(page == "Typography" || page == "Color" || page == "Grid" || page == "Media CSS" || page == "Table" || page == "Spacing" || page == "Helpers" ? "active" : "")+" waves-effect")
+            | CSS
+          .collapsible-body
+            ul
+              li(class=(page == "Color" ? "active" : ""))
+                a(href='color.html') Color
+              li(class=(page == "Grid" ? "active" : ""))
+                a(href='grid.html') Grid
+              li(class=(page == "Helpers" ? "active" : ""))
+                a(href='helpers.html') Helpers
+              li(class=(page == "Spacing" ? "active" : ""))
+                a(href='spacing.html') Spacing
+              li(class=(page == "Media CSS" ? "active" : ""))
+                a(href='media-css.html') Media
+              li(class=(page == "Table" ? "active" : ""))
+                a(href='table.html') Table
+              li(class=(page == "Typography" ? "active" : ""))
+                a(href='typography.html') Typography
+        li.bold
+          a.collapsible-header(class=(page == "Forms" || page == "Buttons" || page == "Navbar" || page == "Cards" || page == "Progress" || page == "Pagination" || page == "Collections" || page == "Box" || page == "Alert" || page == "Tips" || page == "Icons" ? "active" : "")+" waves-effect")
+            | Components
+          .collapsible-body
+            ul
+              li(class=(page == "Buttons" ? "active" : ""))
+                a(href='buttons.html') Buttons
+              li(class=(page == "Cards" ? "active" : ""))
+                a(href='cards.html') Cards
+              li(class=(page == "Collections" ? "active" : ""))
+                a(href='collections.html') Collections
+              li(class=(page == "Forms" ? "active" : ""))
+                a(href='forms.html') Forms
+              li(class=(page == "Box" ? "active" : ""))
+                a(href='box.html') Box
+              li(class=(page == "Tips" ? "active" : ""))
+                a(href='tips.html') Tips
+              li(class=(page == "Alert" ? "active" : ""))
+                a(href='alert.html') Alert
+              li(class=(page == "Icons" ? "active" : ""))
+                a(href='icons.html') Icons
+              li(class=(page == "Navbar" ? "active" : ""))
+                a(href='navbar.html') Navbar
+              li(class=(page == "Pagination" ? "active" : ""))
+                a(href='pagination.html') Pagination
+              li(class=(page == "Progress" ? "active" : ""))
+                a(href='progress.html') Progress
+        li.bold
+          a.collapsible-header(class=(page == "Tabs" || page == "Waves" ? "active" : "")+" waves-effect")
+            | JavaScript
+          .collapsible-body
+            ul
+              //- li(class=(page == "Collapsible" ? "active" : ""))
+              //-   a(href='collapsible.html') Collapsible
+              //- li(class=(page == "Dialogs" ? "active" : ""))
+              //-   a(href='dialogs.html') Dialogs
+              //- li(class=(page == "Dropdown" ? "active" : ""))
+              //-   a(href='dropdown.html') Dropdown
+              //- li(class=(page == "Media" ? "active" : ""))
+              //-   a(href='media.html') Media
+              //- li(class=(page == "Modals" ? "active" : ""))
+              //-   a(href='modals.html') Modals
+              //- li(class=(page == "Parallax" ? "active" : ""))
+              //-   a(href='parallax.html') Parallax
+              //- li(class=(page == "Pushpin" ? "active" : ""))
+              //-   a(href='pushpin.html') Pushpin
+              //- li(class=(page == "ScrollFire" ? "active" : ""))
+              //-   a(href='scrollfire.html') ScrollFire
+              //- li(class=(page == "Scrollspy" ? "active" : ""))
+              //-   a(href='scrollspy.html') Scrollspy
+              li(class=(page == "Tabs" ? "active" : ""))
+                a(href='tabs.html') Tabs
+              //- li(class=(page == "Transitions" ? "active" : ""))
+              //-   a(href='transitions.html') Transitions
+              li(class=(page == "Waves" ? "active" : ""))
+                a(href='waves.html') Waves
+
+    //- li.bold(class=(page == "Mobile" ? "active" : ""))
+    //-   a.waves-effect.waves-teal(href='mobile.html') Mobile
+    //- li.bold(class=(page == "Showcase" ? "active" : ""))
+    //-   a.waves-effect(href='showcase.html') Showcase

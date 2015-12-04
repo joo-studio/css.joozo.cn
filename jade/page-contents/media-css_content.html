@@ -1,0 +1,130 @@
+<div class="ct-container">
+    <div class="ct-row">
+        <div class="ct-md-9 ct-lg-10">
+            <!-- Images -->
+            <div id="images" class="ct-section scrollspy">
+                <h2 class="header">Images</h2>
+                
+                <h4>Responsive Images</h4>
+                <p>To make images resize responsively to page width, you can add the class <code class="language-markup">ct-responsive</code> to your image tag. It will now have a <code class="language-markup">max-width: 100%</code> and <code class="language-markup">height:auto</code>.
+                <br><br>
+                To center images which use the <code class="language-markup">ct-responsive</code> class, use <code class="language-markup">ct-center-block</code> or <code class="language-markup">ct-mx-auto</code>It will now have a <code class="language-markup">margin-right: auto</code> and <code class="language-markup">margin-left: auto</code> instead of <code class="language-markup">ct-center</code>.
+                </p>
+                <pre><code class="language-markup">
+  &lt;img class="ct-responsive" src="cool_pic.jpg">
+  //Display In Center
+  &lt;img class="ct-responsive ct-center-block" src="cool_pic.jpg">
+        </code></pre>
+                <h5>Circular Responsive images</h5>
+                <div class="ct-md-8 ct-md-offset-2 ct-lg-6 ct-lg-offset-3">
+                    <div class="ct-card ct-pa-lg">
+                        <div class="ct-row ct-valign-wrapper">
+                            <div class="ct-sm-4 ct-md-2">
+                                <img src="images/yuna.jpg" alt="" class="ct-circle ct-responsive ct-valign">
+                            </div>
+                            <div class="ct-sm-8 ct-md-10">
+                                <span class="ct-color-black">
+                  This is a square image. Add the "ct-circle" class to it to make it appear circular.
+                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ct-row">
+                    <div class="ct-sm-12">
+                        <p>To make images appear circular, simply add <code class="language-markup">class="ct-circle"</code> to them</p>
+                        <pre><code class="language-markup">
+  &lt;div class="ct-md-8 ct-md-offset-2 ct-lg-6 ct-lg-offset-3">
+    &lt;div class="ct-card">
+      &lt;div class="ct-row ct-valign-wrapper">
+        &lt;div class="ct-sm-2">
+          &lt;img src="images/yuna.jpg" alt="" class="ct-circle ct-responsive"> &lt;!-- notice the "circle" class -->
+        &lt;/div>
+        &lt;div class="ct-sm-10">
+          &lt;span class="ct-color-black">
+            This is a square image. Add the "ct-circle" class to it to make it appear circular.
+          &lt;/span>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+            </code></pre>
+                    </div>
+                </div>
+                <div class="ct-clearfix">
+                    <h4>100% Images</h4>
+                    <p>To make images 100% to page width, you can add the class <code class="language-markup">ct-img100</code> to your image tag. It will now have a <code class="language-markup">width: 100%</code> and <code class="language-markup">height:auto</code>.</p>
+                    <pre><code class="language-markup">
+  &lt;img class="ct-img100" src="cool_pic.jpg">
+        </code></pre>
+                </div>
+                <div class="ct-clearfix">
+                    <div class="ct-md-8 ct-md-offset-2 ct-lg-6 ct-lg-offset-3">
+                        <div class="ct-card ct-pa-lg">
+                            <div class="ct-row ct-valign-wrapper">
+                                <div class="ct-sm-4 ct-md-2">
+                                    <img src="images/yuna.jpg" alt="" class="ct-circle ct-img100 ct-valign">
+                                </div>
+                                <div class="ct-sm-8 ct-md-10">
+                                    <img src="images/yuna.jpg" alt="" class="ct-circle ct-img100 ct-valign">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ct-clearfix ct-section">
+                <h4>Image shapes</h4>
+                <p>Add classes to an <code class="language-markup">&lt;img></code>element to easily style images in any project.</p>
+                <div class="ct-container-fuild">
+                    <div class="ct-row">
+                        <div class="ct-md-4"><img src="images/yuna.jpg" class="ct-img100 ct-rounded"></div>
+                        <div class="ct-md-4"><img src="images/s2.jpg" class="ct-img100 ct-circle"></div>
+                        <div class="ct-md-4"><img src="images/s1.jpg" class="ct-img100 ct-thumbnail"></div>
+                    </div>
+                </div>
+                <pre><code class="language-markup">
+  &lt;img src="..." alt="..." class="ct-rounded">
+  &lt;img src="..." alt="..." class="ct-circle">
+  &lt;img src="..." alt="..." class="ct-thumbnail">
+    </code></pre>
+            </div>
+            <br>
+            <!-- Videos ct-Section -->
+            <div id="videos" class="ct-section scrollspy">
+                <h2 class="header">Videos</h2>
+                <p class="caption">We provide a container for Embedded Videos that resizes them responsively.</p>
+                <h4>Responsive Embeds</h4>
+                <p>To make your embeds responsive, merely wrap them with a containing div which has the class <code class="language-markup">.ct-video-container</code></p>
+                <div class="ct-video-container">
+                    <iframe width="853" height="480" src="http://player.youku.com/player.php/sid/XMTMxMzY5MzUzMg==/partnerid/6a9728f9675f9d36/v.swf" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <pre><code class="language-markup">
+  &lt;div class="ct-video-container">
+    &lt;iframe width="853" height="480" src="http://player.youku.com/player.php/sid/XMTMxMzY5MzUzMg==/partnerid/6a9728f9675f9d36/v.swf" frameborder="0" allowfullscreen>&lt;/iframe>
+  &lt;/div>
+        </code></pre>
+                <h4>Responsive Videos</h4>
+                <p>To make your HTML5 Videos responsive just add the class <code class="language-markup">ct-responsive</code> to the video tag.</p>
+                <video class="ct-responsive" width="100%" controls>
+                    <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4">
+                </video>
+                <pre><code class="language-markup">
+  &lt;video class="ct-responsive" controls>
+    &lt;source src="movie.mp4" type="video/mp4">
+  &lt;/video>
+        </code></pre>
+            </div>
+        </div>
+        <div class="ct-hide-sm-down ct-md-3 ct-lg-2">
+            <div class="toc-wrapper">
+                <div style="height: 1px;">
+                    <ul class="ct-section table-of-contents">
+                        <li><a href="#images">Images</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
